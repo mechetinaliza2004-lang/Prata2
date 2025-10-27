@@ -1,0 +1,7 @@
+body {
+    width: 1440px;
+    /* По ширине макета */
+    margin: 0 auto;
+    /* Выравнивание по центру */
+    display: block;
+}
