@@ -607,3 +607,98 @@ body {
     width: auto;
     height: auto;
 }
+
+.hand-section {
+    width: 1440px;
+    height: 737px;
+    background-color: #D3D3D3;
+    font-family: 'Prata', serif;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hand-section__text-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.hand-section__text-pattern p {
+    position: absolute;
+    font-size: 117px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+}
+
+.hand-section__text-top-white {
+    color: #FFFFFF;
+    top: 52px;
+    left: 172px;
+    transform: scaleX(-1);
+}
+
+.hand-section__text-top-black {
+    color: #000000;
+    top: 52px;
+    left: 527px;
+    transform: scaleX(-1);
+}
+
+.hand-section__text-top-black-flipped {
+    color: #000000;
+    top: 52px;
+    right: 527px;
+}
+
+.hand-section__text-top-white-flipped {
+    color: #FFFFFF;
+    top: 52px;
+    right: 172px;
+}
+
+.hand-section__text-center-black {
+    color: #000000;
+    top: 260px;
+    left: 172px;
+}
+
+.hand-section__text-center-black-flipped {
+    color: #000000;
+    top: 260px;
+    right: 172px;
+    transform: scaleX(-1);
+}
+
+.hand-section__text-bottom-white-flipped {
+    color: #FFFFFF;
+    bottom: 52px;
+    left: 172px;
+    transform: scaleX(-1);
+}
+
+.hand-section__text-bottom-black {
+    color: #000000;
+    bottom: 52px;
+    left: 527px;
+}
+
+.hand-section__hand-image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: block;
+    width: auto;
+    max-width: none;
+    height: auto;
+}
