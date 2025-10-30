@@ -62,96 +62,106 @@ body {
     letter-spacing: 0.08em;
     text-transform: lowercase;
 }
+/* Стили для секции "О нас" */
 .about-us {
     width: 1440px;
-    height: 950px;
-    background-color: #D7D8DA;
+    height: 918px;
+    background-color: #D3D3D3;
+    /* ИСПРАВЛЕННЫЙ ЦВЕТ ФОНА */
     font-family: 'Prata', serif;
     margin: 0 auto;
-    padding-top: 50px;
-    text-align: center;
     position: relative;
     overflow: hidden;
 }
 
-.about-us__title {
+.about-us__main-title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 72px;
     text-transform: uppercase;
     color: #000000;
-    margin-bottom: 50px;
-}
-
-.about-us__content {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
+    margin: 0;
 }
 
 .about-us__left-block {
-    width: 250px;
-    margin-right: 150px;
+    position: absolute;
+    top: 129px;
+    left: 100px;
+    width: 280px;
     text-align: left;
     color: #000000;
 }
 
-.about-us__decorative-header {
-    font-size: 72px;
-    text-transform: uppercase;
-    line-height: 0.9;
+.left-text {
+    font-family: 'Prata', serif;
+    line-height: 1.1;
     margin: 0;
 }
 
-.about-us__decorative-header.bottom {
-    margin-top: 100px;
+.left-text.line-1 {
+    font-size: 78px;
+    text-transform: uppercase;
 }
 
-.about-us__text-paragraph {
-    font-size: 18px;
+.left-text.line-2 {
+    font-size: 78px;
     text-transform: lowercase;
-    line-height: 1.6;
-    margin: 30px 0;
+    margin-top: 30px;
+}
+
+.left-text.line-3 {
+    font-size: 23px;
+    text-transform: lowercase;
+    margin-top: 77px;
+    width: 250px;
+}
+
+.left-text.line-4 {
+    font-size: 78px;
+    text-transform: uppercase;
+    margin-top: 77px;
+}
+
+.left-text.line-5 {
+    font-size: 78px;
+    text-transform: lowercase;
+    margin-top: 30px;
 }
 
 .about-us__image-block {
-    position: relative;
-    width: 800px;
-    height: 600px;
+    position: absolute;
+    left: 353px;
+    top: 116px;
 }
 
-.about-us__stone.large {
-    position: absolute;
-    width: 480px;
-    height: 600px;
-    left: 0;
-    top: 0;
-}
-
-.about-us__stone.small {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    right: 0;
-    bottom: 0;
-    transform: translateY(50px);
+.about-us__watch-image {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .about-us__right-block {
-    width: 200px;
-    margin-left: 100px;
+    position: absolute;
+    right: 65px;
+    top: 129px;
+    width: 250px;
     text-align: right;
     color: #000000;
 }
 
-.about-us__right-caption {
-    font-size: 30px;
+.right-text {
+    font-family: 'Prata', serif;
+    font-size: 48px;
     text-transform: lowercase;
-    line-height: 1.2;
+    line-height: 1.1;
     margin: 0;
 }
 
-.about-us__right-caption.bottom {
-    margin-top: 300px;
-    transform: rotate(180deg);
+.right-text.line-2 {
+    margin-top: 490px;
     display: inline-block;
+    transform: scaleX(-1) scaleY(-1);
 }
