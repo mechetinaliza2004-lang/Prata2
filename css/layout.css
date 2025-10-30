@@ -534,3 +534,76 @@ body {
     width: auto;
     height: auto;
 }
+
+.catalog-section {
+    width: 1440px;
+    height: 703px;
+    background-color: #D3D3D3;
+    font-family: 'Prata', serif;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.catalog-section__title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+    z-index: 5;
+}
+
+.catalog-section__center-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: auto;
+    height: auto;
+}
+
+.catalog-section__oval-background {
+    display: block;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
+.catalog-section__rings-foreground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: auto;
+    height: auto;
+    z-index: 2;
+}
+
+.catalog-section__earrings-left {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+    z-index: 3;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.catalog-section__earrings-right {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    z-index: 3;
+    display: block;
+    width: auto;
+    height: auto;
+}
