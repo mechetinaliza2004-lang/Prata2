@@ -62,3 +62,96 @@ body {
     letter-spacing: 0.08em;
     text-transform: lowercase;
 }
+.about-us {
+    width: 1440px;
+    height: 950px;
+    background-color: #D7D8DA;
+    font-family: 'Prata', serif;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us__title {
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.about-us__content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.about-us__left-block {
+    width: 250px;
+    margin-right: 150px;
+    text-align: left;
+    color: #000000;
+}
+
+.about-us__decorative-header {
+    font-size: 72px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    margin: 0;
+}
+
+.about-us__decorative-header.bottom {
+    margin-top: 100px;
+}
+
+.about-us__text-paragraph {
+    font-size: 18px;
+    text-transform: lowercase;
+    line-height: 1.6;
+    margin: 30px 0;
+}
+
+.about-us__image-block {
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+.about-us__stone.large {
+    position: absolute;
+    width: 480px;
+    height: 600px;
+    left: 0;
+    top: 0;
+}
+
+.about-us__stone.small {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    right: 0;
+    bottom: 0;
+    transform: translateY(50px);
+}
+
+.about-us__right-block {
+    width: 200px;
+    margin-left: 100px;
+    text-align: right;
+    color: #000000;
+}
+
+.about-us__right-caption {
+    font-size: 30px;
+    text-transform: lowercase;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.about-us__right-caption.bottom {
+    margin-top: 300px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
