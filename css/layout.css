@@ -1,22 +1,18 @@
 body {
     width: 1440px;
-    /* По ширине макета */
     margin: 0 auto;
-    /* Выравнивание по центру */
     display: block;
 }
 .hero-main {
     position: relative;
     width: 1440px;
-    /* Фиксированная ширина макета */
     height: 950px;
-    /* Фиксированная высота макета */
     background-color: #D3D3D3;
     display: block;
     text-align: center;
     overflow: hidden;
     margin: 0 auto;
-    /* Добавлено для центрирования всего макета */
+    
 }
 
 .hero-main__image-container {
@@ -232,4 +228,221 @@ body {
     margin-top: 490px;
     display: inline-block;
     transform: scaleX(-1) scaleY(-1);
+}
+
+/* Стили для Hero Section (Первый экран) */
+.hero-main {
+    position: relative;
+    width: 1440px;
+    height: 950px;
+    background-color: #D3D3D3;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.hero-main__image-container {
+    width: 1340px;
+    height: 405px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.hero-main__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-main__content {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    margin-top: 100px;
+}
+
+.hero-main__pre-title {
+    font-family: 'Prata', serif;
+    color: #333;
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.hero-main__title {
+    font-family: 'Prata', serif;
+    font-size: 124px;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.hero-main__slogan {
+    font-family: 'Prata', serif;
+    color: #333;
+    font-size: 30px;
+    margin-top: 15px;
+    letter-spacing: 0.08em;
+    text-transform: lowercase;
+}
+
+
+.about-us {
+    width: 1440px;
+    height: 918px;
+    background-color: #D3D3D3;
+    font-family: 'Prata', serif;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us__main-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+    z-index: 3;
+}
+
+.about-us__left-block {
+    position: absolute;
+    top: 129px;
+    left: 65px;
+    width: 300px;
+    text-align: left;
+    color: #000000;
+    z-index: 3;
+}
+
+.left-text {
+    font-family: 'Prata', serif;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.left-text.line-1 {
+    font-size: 78px;
+    text-transform: uppercase;
+}
+
+.left-text.line-2 {
+    font-size: 78px;
+    text-transform: lowercase;
+    margin-top: 30px;
+}
+
+.left-text.line-3 {
+    font-size: 23px;
+    text-transform: lowercase;
+    margin-top: 77px;
+    width: 250px;
+}
+
+.left-text.line-4 {
+    font-size: 78px;
+    text-transform: uppercase;
+    margin-top: 77px;
+}
+
+.left-text.line-5 {
+    font-size: 78px;
+    text-transform: lowercase;
+    margin-top: 30px;
+}
+
+.about-us__image-block {
+    position: absolute;
+    left: 353px;
+    top: 116px;
+    z-index: 1;
+}
+
+.about-us__watch-image {
+    display: block;
+    width: auto;
+    max-width: none;
+    height: auto;
+}
+
+.about-us__right-block {
+    position: absolute;
+    top: 129px;
+    right: 65px;
+    width: 250px;
+    text-align: right;
+    color: #000000;
+    z-index: 3;
+}
+
+.right-text {
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    text-transform: lowercase;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.right-text.line-2 {
+    margin-top: 490px;
+    display: inline-block;
+    transform: scaleX(-1) scaleY(-1);
+}
+
+
+.pearl-section {
+    width: 1440px;
+    height: 928px;
+    background-color: #D3D3D3;
+    font-family: 'Prata', serif;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pearl-section__title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 20px 0 0 0;
+    z-index: 3;
+}
+
+.pearl-section__center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pearl-section__background-image {
+    display: block;
+    width: auto;
+    max-width: none;
+    height: auto;
+    z-index: 1;
+}
+
+.pearl-section__foreground-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: auto;
+    height: auto;
 }
