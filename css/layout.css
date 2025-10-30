@@ -7,11 +7,16 @@ body {
 }
 .hero-main {
     position: relative;
-    height: 95vh;
+    width: 1440px;
+    /* Фиксированная ширина макета */
+    height: 950px;
+    /* Фиксированная высота макета */
     background-color: #D3D3D3;
     display: block;
     text-align: center;
     overflow: hidden;
+    margin: 0 auto;
+    /* Добавлено для центрирования всего макета */
 }
 
 .hero-main__image-container {
@@ -62,6 +67,7 @@ body {
     letter-spacing: 0.08em;
     text-transform: lowercase;
 }
+
 .hero-main {
     position: relative;
     height: 95vh;
