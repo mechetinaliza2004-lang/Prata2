@@ -589,7 +589,7 @@ body {
 .catalog-section__earrings-left {
     position: absolute;
     top: 50%;
-    left: 100px;
+    left: 150px;
     transform: translateY(-50%);
     z-index: 3;
     display: block;
@@ -600,7 +600,7 @@ body {
 .catalog-section__earrings-right {
     position: absolute;
     top: 50%;
-    right: 100px;
+    right: 150px;
     transform: translateY(-50%);
     z-index: 3;
     display: block;
