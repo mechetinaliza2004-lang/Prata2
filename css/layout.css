@@ -623,7 +623,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    /* Прилегает к левому краю */
     z-index: 1;
+    /* Нижний слой */
     display: block;
     width: auto;
     max-width: none;
@@ -635,7 +637,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* Центрирование */
     z-index: 2;
+    /* Верхний слой (над hand2) */
 }
 
 .hand-section__prata-image {
